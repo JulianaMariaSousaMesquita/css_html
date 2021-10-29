@@ -2,11 +2,10 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    padding: 5px;
+    text-align: center;
 }
 body {
     background-color: #000;
-    text-align: center;
 }
 
 object {
@@ -20,18 +19,12 @@ footer , header{
 }
 
 footer{
+    margin-top: 20px;
     height: 50px;
     align-items: center;
     text-align: center;
     padding: 20px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
-
-div{
-    margin: 20px;
-    border-radius: 10%;
+    margin-bottom: 0px;
 }
 
 img {
@@ -75,13 +68,12 @@ nav li:hover{
 li {
     position: center;
     float: right;
-    width: 200px;
+    width: 150px;
 }
 
 .hidden ul{
     display: none;
     left: 0;
-    position: absolute;
     margin-top: 25px;
 }
 
