@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo" src="img/logo.png" alt="Fullstack"/>
+        </figure>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li  class="hidden"><a href="front.html">Front-End</a>
+            <ul>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">Javascript</a></li>
+                <li><a href="jquery.html">JQuery</a></li>
+                <li><a href="responsive.html">Responsive Web Design</a></li>
+                <li><a href="angular.html">AngularJS</a></li>
+                <li><a href="vue.html">Vue.js</a></li>
+            </ul>
+        </li>
+        <li class="hidden"><a href="back.html">Back-End</a>
+            <ul>
+                <li><a href="java.html">Java</a></li>
+                <li><a href="mysql.html">Mysql</a></li>
+                <li><a href=" Node.js"> Node </a></li>
+            </ul>
+        </li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>  
+    </nav>
+    <div>
+        <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+            <input type="hidden" name="recipient" value="julianamariasousamesquita@id.uff.br"> <!-- Pode ser qualquer endereço de email -->
+            <input type="hidden" name="redirect" value="http://127.0.0.1:5500/Fullstack/index.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+            <input type="hidden" name="subject" value="Mensagem do site - -teste">  <!-- Assunto da mensagem -->
+            <input type="hidden" name="email" value="julianamariasousamesquita@id.uff.br">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+            <br><br>
+            <p> 
+            Nome:<br /> 
+            <input type="text" size="30" name="nome"> 
+            </p>   
+            <br><br>
+            <p>
+            E-mail:<br /> 
+            <input type="text" size="30" name="replyto"> 
+            </p>   
+            <br><br>
+            <p> 
+            Mensagem:<br /> 
+            <input type="text" size="35" name="Comentarios"> 
+            </p>   
+            <br><br>
+            <p> 
+            <input type="submit" name="BTEnvia" value="Enviar"> 
+            <input type="reset" name="BTApaga" value="Apagar"> </p> 
+            </form>
+    </div>
+    <footer>
+        <div class="footer">
+            Desenvolvido por <a href="https://julianamariasousamesquita.github.io/JulianaMariaSousaMesquita/">JulianaMesquita</a>
+        </div>
+    </footer>
+</body>
+</html>
