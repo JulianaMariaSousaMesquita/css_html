@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fullstack</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FullStack</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <figure>
-            <img class="logo" src="img/logo.png" alt="Fullstack"/>
-        </figure>
-    </header>
+  <header>
+    <figure>
+        <img class="logo" src="img/logo.png" alt="Fullstack"/>
+    </figure>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -39,38 +40,81 @@
         <li><a href="sobre.html">Sobre</a></li>
       </ul>  
     </nav>
-    <div>
-        <p>Dominar algo nem sempre será uma tarefa simples, pelo contrário, irá exigir de
-        você atitudes corajosas e ao mesmo tempo complexas. E se tratando de
-        programação, irá exigir muito, mais muito tempo de estudos e prática, e para
-        aqueles que tem o desejo de se tornar um Desenvolvedor Full-Stack certamente
-        precisará de um guia completo como este, capaz de lhe conduzir por um caminho
-        com obstáculos, dificuldades mas um caminho certeiro, que lhe levará ao nível de
-        maestria como um desenvolvedor Full-Stack. Iremos lhe mostrar o real caminho
-        para você dominar as tecnologias necessárias e assim poder construir aplicações
-        completas com as melhores e mais atuais tecnologias do mercado.</p>        
-        <p> um desenvolvedor Full-Stack exigirá de você aprender muitas habilidades. E
-        para iniciantes, muitas vezes não é fácil encontrar o caminho certo de aprendizado
-        para já começar a ter os primeiros resultados. No começo pode ser que você se
-        assuste com algumas tecnologias que terá que dominar, no entanto se você tem
-        alguém que lhe conduza pela caminhada a historia muda bastante.</p>
-    </div>
-    <div>
-        <h3>Existem 3 camadas no desenvolvimento web:Informação, formatação e comportamento.</h3>
-        <p>A camada de informação: é normalmente controlada pelo HTML. Ela exibe e da
-            significado à informação que o usuário consome. É nela que você marca o que é um
-            titulo, um parágrafo etc.. Dando significado e estruturando cada pedaço de
-            informação publicada.</p>
-        <p>A camada de formatação: é normalmente controlada pelo CSS. É nesta camada que
-            você controla como a informação será formatada, transformando o layout feito pelo
-            designer em código.
-            O CSS é o responsável por dar forma à informação marcada com HTML, para que
-            ela seja bem-vista em qualquer dispositivo.
-        </p>
-        <p>A camada de comportamento: Era totalmente controlada pelo JavaScript, no
-            entanto o CSS agora está tendo algumas responsabilidades nesse terreno. Nesta
-            camada é onde controlamos qual será o comportamento da informação.
-            </p>
+</header>
+
+    <Main>
+      <div id="slider1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#slider1" data-slide-to="0" class="active"></li>
+          <li data-target="#slider1" data-slide-to="1"></li>
+          <li data-target="#slider1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="http://marcusmarques.com.br/wp-content/uploads/2018/04/mesa-trabalho.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.brasilcode.com.br/wp-content/uploads/2019/08/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://hermes.digitalinnovation.one/articles/cover/c7d31e9e-b229-4578-8258-461ed8d6ff30.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slider1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </Main>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <p>Dominar algo nem sempre será uma tarefa simples, pelo contrário, irá exigir de
+                    você atitudes corajosas e ao mesmo tempo complexas. E se tratando de
+                    programação, irá exigir muito, mais muito tempo de estudos e prática, e para
+                    aqueles que tem o desejo de se tornar um Desenvolvedor Full-Stack certamente
+                    precisará de um guia completo como este, capaz de lhe conduzir por um caminho
+                    com obstáculos, dificuldades mas um caminho certeiro, que lhe levará ao nível de
+                    maestria como um desenvolvedor Full-Stack. Iremos lhe mostrar o real caminho
+                    para você dominar as tecnologias necessárias e assim poder construir aplicações
+                    completas com as melhores e mais atuais tecnologias do mercado.</p> 
+            </div>
+            <div class="col-4">
+                <p> Um desenvolvedor Full-Stack exigirá de você aprender muitas habilidades. E
+                    para iniciantes, muitas vezes não é fácil encontrar o caminho certo de aprendizado
+                    para já começar a ter os primeiros resultados. No começo pode ser que você se
+                    assuste com algumas tecnologias que terá que dominar, no entanto se você tem
+                    alguém que lhe conduza pela caminhada a historia muda bastante.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Existem 3 camadas no desenvolvimento web:Informação, formatação e comportamento.</h3>
+            <div class="col-sm-4">    
+                <p><b>A camada de informação:</b> é normalmente controlada pelo HTML. Ela exibe e da
+                    significado à informação que o usuário consome. É nela que você marca o que é um
+                    titulo, um parágrafo etc.. Dando significado e estruturando cada pedaço de
+                    informação publicada.</p>
+            </div>
+            <div class="col-sm-4">
+                <p><b>A camada de formatação:</b> é normalmente controlada pelo CSS. É nesta camada que
+                você controla como a informação será formatada, transformando o layout feito pelo
+                designer em código.
+                O CSS é o responsável por dar forma à informação marcada com HTML, para que
+                ela seja bem-vista em qualquer dispositivo.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p><b>A camada de comportamento:</b> Era totalmente controlada pelo JavaScript, no
+                    entanto o CSS agora está tendo algumas responsabilidades nesse terreno. Nesta
+                    camada é onde controlamos qual será o comportamento da informação.
+                </p>
+            </div>
+        </div>
     </div>
 
     <footer>

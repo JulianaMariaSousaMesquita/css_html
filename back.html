@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Back-End</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous" defer></script>
 </head>
 <body>
 
@@ -13,34 +16,33 @@
         <figure>
             <img class="logo" src="img/logo.png" alt="Fullstack"/>
         </figure>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li  class="hidden"><a href="front.html">Front-End</a>
+                <ul>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="js.html">Javascript</a></li>
+                    <li><a href="jquery.html">JQuery</a></li>
+                    <li><a href="responsive.html">Responsive Web Design</a></li>
+                    <li><a href="angular.html">AngularJS</a></li>
+                    <li><a href="vue.html">Vue.js</a></li>
+                </ul>
+            </li>
+            <li class="hidden"><a href="back.html">Back-End</a>
+                <ul>
+                    <li><a href="java.html">Java</a></li>
+                    <li><a href="mysql.html">Mysql</a></li>
+                    <li><a href=" Node.js"> Node </a></li>
+                </ul>
+            </li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+          </ul>  
+        </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li  class="hidden"><a href="front.html">Front-End</a>
-            <ul>
-                <li><a href="html.html">HTML</a></li>
-                <li><a href="css.html">CSS</a></li>
-                <li><a href="js.html">Javascript</a></li>
-                <li><a href="jquery.html">JQuery</a></li>
-                <li><a href="responsive.html">Responsive Web Design</a></li>
-                <li><a href="angular.html">AngularJS</a></li>
-                <li><a href="vue.html">Vue.js</a></li>
-            </ul>
-        </li>
-        <li class="hidden"><a href="back.html">Back-End</a>
-            <ul>
-                <li><a href="java.html">Java</a></li>
-                <li><a href="mysql.html">Mysql</a></li>
-                <li><a href=" Node.js"> Node </a></li>
-            </ul>
-        </li>
-        <li><a href="cursos.html">Cursos</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-      </ul>  
-    </nav>
-
     <div>
         <h2>Back-End</h2>
         Back End, como o próprio nome sugere, vem da ideia do que tem por trás de uma aplicação. Pode ficar meio abstrato em um primeiro momento, mas pense que para conseguir usar o Facebook no dia a dia, os dados do seu perfil, amigos e publicações precisam estar salvos em algum lugar, sendo esse lugar um banco de dados e processados a partir de lá. Não basta apenas o front-end em HTML e CSS! O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final não tenha acesso e possa manipular algo.
