@@ -78,8 +78,11 @@ li {
     width: 150px;
 }
 
-.hidden ul{
+.hidden {
     display: none;
+}
+
+.hidden ul{
     left: 0;
     margin-top: 25px;
 }
